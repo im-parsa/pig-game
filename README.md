@@ -15,7 +15,7 @@
 <p>
 
 ## :question: About:
-**Pig Game** is a free game made for you to spend free time. The rules are simple:
+این یک بازی بسیار سادی و سرگرم کنندس که میتونید با قوانین زیر آن را یاد بگیرید :
 
 - در هر نوبت ، یک بازیکن مکرراً یک تاس میندازد تا زمانی که یک عدد 1 زده شود یا بازیکن تصمیم بگیرد "نگه دارد".
 - اگر هر بازیکنی که شماره تاسش ۱ بیوفتد ، هیچ امتیازی نمی گیرد و نوبت بازیکن بعدی می شود. اگر بازیکن شماره دیگری را بچرخاند ، به مجموع نوبت وی اضافه می شود و نوبت بازیکن ادامه می یابد.
@@ -24,7 +24,7 @@
 شما میتونید این بازی رو با کلیک روی این دکمه تجربه کنید
 
 <p align="center">
-	<a href="https://im-parsa.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-Let's%20play!-c73657.svg" height="39px"></a>
+	<a href="https://im-parsa.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-بریم برای بازی!-c73657.svg" height="39px"></a>
 </p>
 
 توجه: این بازی توسط من ننوشته شده و من فقط طراحی و ریمیک این بازی را انجام دادم [@jonasschmedtmann](https://github.com/jonasschmedtmann)
