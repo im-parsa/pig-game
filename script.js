@@ -1,19 +1,24 @@
 'use strict';
 
 // Selecting elements
-const player0El = document.querySelector('.player--0');
-const player1El = document.querySelector('.player--1');
-const score0El = document.querySelector('#score--0');
-const score1El = document.getElementById('score--1');
-const current0El = document.getElementById('current--0');
-const current1El = document.getElementById('current--1');
+const
+  player0El = document.querySelector('.player--0'),
+  player1El = document.querySelector('.player--1'),
+  score0El = document.querySelector('#score--0'),
+  score1El = document.getElementById('score--1'),
+  current0El = document.getElementById('current--0'),
+  current1El = document.getElementById('current--1'),
 
-const diceEl = document.querySelector('.dice');
-const btnNew = document.querySelector('.btn--new');
-const btnRoll = document.querySelector('.btn--roll');
-const btnHold = document.querySelector('.btn--hold');
+  diceEl = document.querySelector('.dice'),
+  btnNew = document.querySelector('.btn--new'),
+  btnRoll = document.querySelector('.btn--roll'),
+  btnHold = document.querySelector('.btn--hold');
 
-let scores, currentScore, activePlayer, playing;
+let
+  scores,
+  currentScore,
+  activePlayer,
+  playing;
 
 // Starting conditions
 const init = function ()
@@ -62,9 +67,7 @@ btnRoll.addEventListener('click', function ()
     {
       // Add dice to current score
       currentScore += dice;
-      document.getElementById(
-        `current--${activePlayer}`
-      ).textContent = currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent = currentScore;
     }
     else
       // Switch to next player
@@ -87,8 +90,8 @@ btnHold.addEventListener('click', function ()
     if (scores[activePlayer] >= 100)
     {
       // Finish the game
-      playing = false;
       diceEl.classList.add('hidden');
+      playing = false;
 
       document
         .querySelector(`.player--${activePlayer}`)
@@ -104,3 +107,115 @@ btnHold.addEventListener('click', function ()
 });
 
 btnNew.addEventListener('click', init);
+
+
+const divParticlesJS = document.querySelector('#particles-js');
+
+if (divParticlesJS)
+  particlesJS("particles-js",
+    {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 1200
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+        },
+        "opacity": {
+          "value": 0.3,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 180,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    }
+  );

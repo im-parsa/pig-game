@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
 *
 {
@@ -15,11 +15,11 @@ html
 
 body
 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lalezar', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #48aeff 0%, #2e41bf 100%);
+  background-image: linear-gradient(to top left, #033c93 0%, #2e41bf 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,17 +28,37 @@ body
 /* LAYOUT */
 main
 {
-  position: relative;
-  width: 100rem;
+  background: rgba( 255, 255, 255, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  position: absolute;
+  width: 110rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(200px);
-  filter: blur();
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
-  border-radius: 9px;
+  border-radius: 25px;
   overflow: hidden;
   display: flex;
   transform: scale(1.2);
+}
+
+.my-link
+{
+  border-radius: 50rem;
+  width: 70px;
+  height: 70px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.3 );
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #2e41bf;
+  font-size: 22px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .player
@@ -57,7 +77,6 @@ main
   position: relative;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
@@ -69,6 +88,9 @@ main
   font-weight: 300;
   color: #3a73dc;
   margin-bottom: auto;
+  background: -webkit-linear-gradient(50deg, #3c6fcf, #183d81);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .player--active
@@ -91,9 +113,9 @@ main
 
 .current
 {
-  background-color: #48aeff;
+  background-color: rgba(0, 0, 0, 0.055);
   opacity: 0.8;
-  border-radius: 9px;
+  border-radius: 25px;
   color: #fff;
   width: 65%;
   padding: 2rem;
@@ -106,7 +128,7 @@ main
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
-  color: #ddd;
+  color: #f1f1f1;
 }
 
 .current-score
@@ -121,7 +143,6 @@ main
   left: 50%;
   transform: translateX(-50%);
   color: #444;
-  background: none;
   border: none;
   font-family: inherit;
   font-size: 1.8rem;
@@ -129,17 +150,16 @@ main
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(10px);
-  padding: 0.7rem 2.5rem;
-  border-radius: 50rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.5rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover
 {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.2);
 }
 
