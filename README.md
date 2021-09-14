@@ -14,7 +14,7 @@
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
 <p>
 
-## :question: About:
+## :question: درباره بازی:
 این یک بازی بسیار سادی و سرگرم کنندس که میتونید با قوانین زیر آن را یاد بگیرید :
 
 - در هر نوبت ، یک بازیکن مکرراً یک تاس میندازد تا زمانی که یک عدد 1 زده شود یا بازیکن تصمیم بگیرد "نگه دارد".
@@ -29,17 +29,17 @@
 
 توجه: این بازی توسط من ننوشته شده و من فقط طراحی و ریمیک این بازی را انجام دادم
 
-## :rocket: Technologies:
+## :rocket: تکنولوژی بازی:
 <p>
 <img height=28px src="https://img.shields.io/badge/%7F-HTML-black?logo=html5&style=flat"> <img height=28px src="https://img.shields.io/badge/%7F-CSS-black?logo=css3&style=flat"> <img height=28px src="https://img.shields.io/badge/%7F-JavaScript-black?logo=javascript&style=flat">
 </p>
 
-## :clubs: Gaming:
+## :clubs: پیشنیاز ها:
 این بازی نیازی به هیچ پیشنیازی ندارد.
 
 ```sh
 $ git clone git@github.com:im-parsa/pig-game.git
 ```
-## :balance_scale: License
+## :balance_scale: لایسنس
 
 **Pig game** is a MIT licensed, as found in the [LICENSE](./LICENSE) file.
