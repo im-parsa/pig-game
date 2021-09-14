@@ -17,17 +17,17 @@
 ## :question: About:
 **Pig Game** is a free game made for you to spend free time. The rules are simple:
 
-- Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold".
-- If the player rolls a 1, they score nothing and it becomes the next player's turn. If the player rolls any other number, it is added to their turn total and the player's turn continues.
-- The game ends when a player gets 100 points.
+- در هر نوبت ، یک بازیکن مکرراً یک تاس میندازد تا زمانی که یک عدد 1 زده شود یا بازیکن تصمیم بگیرد "نگه دارد".
+- اگر هر بازیکنی که شماره تاسش ۱ بیوفتد ، هیچ امتیازی نمی گیرد و نوبت بازیکن بعدی می شود. اگر بازیکن شماره دیگری را بچرخاند ، به مجموع نوبت وی اضافه می شود و نوبت بازیکن ادامه می یابد.
+- در آخر هر کس زود تر به ۱۰۰ امتیاز برنده مسابقه است
 
-You can try this game by clicking on the button below.
+شما میتونید این بازی رو با کلیک روی این دکمه تجربه کنید
 
 <p align="center">
-	<a href="https://lobophf.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-Let's%20play!-c73657.svg" height="39px"></a>
+	<a href="https://im-parsa.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-Let's%20play!-c73657.svg" height="39px"></a>
 </p>
 
-Note: This game was created by [@jonasschmedtmann](https://github.com/jonasschmedtmann), and can be found in his [JavaScript course](https://www.udemy.com/course/the-complete-javascript-course/) on Udemy. This version is slightly different from the original. 
+توجه: این بازی توسط من ننوشته شده و من فقط طراحی و ریمیک این بازی را انجام دادم [@jonasschmedtmann](https://github.com/jonasschmedtmann)
 
 ## :rocket: Technologies:
 <p>
@@ -35,14 +35,11 @@ Note: This game was created by [@jonasschmedtmann](https://github.com/jonasschme
 </p>
 
 ## :clubs: Gaming:
-This game doesn't require installation. To play it on your machine, first clone this repository.
+این بازی نیازی به هیچ پیشنیازی ندارد.
 
 ```sh
 $ git clone git@github.com:im-parsa/pig-game.git
 ```
-
-Then access the `pig-game` folder, and open the `index.html` file in your browser by clicking twice.
-
 ## :balance_scale: License
 
 **Pig game** is a MIT licensed, as found in the [LICENSE](./LICENSE) file.
