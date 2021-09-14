@@ -1,11 +1,6 @@
 <h1 align="center">Pig Game</h1>
 <p align="center">
-	<img height="350px" alt="screenshot" src="https://cdn.discordapp.com/attachments/776425421968244768/887312858537414696/Screenshot_from_2021-09-14_16-31-27.png">
-	<br>
-	<a href="#question-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#clubs-gaming">Gaming</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#balance_scale-license">License</a>	
+	<img height="350px" alt="screenshot" src="https://cdn.discordapp.com/attachments/776425421968244768/887361289679175720/Screenshot_from_2021-09-14_20-06-37.png">
 </p>
 
 <p align="center">
