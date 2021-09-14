@@ -24,10 +24,10 @@
 شما میتونید این بازی رو با کلیک روی این دکمه تجربه کنید
 
 <p align="center">
-	<a href="https://im-parsa.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-بریم برای بازی!-c73657.svg" height="39px"></a>
+	<a href="https://im-parsa.github.io/pig-game/"><img alt ="deploy shield" src="https://img.shields.io/badge/%F0%9F%99%82%EF%B8%8F-Play!-c73657.svg" height="39px"></a>
 </p>
 
-توجه: این بازی توسط من ننوشته شده و من فقط طراحی و ریمیک این بازی را انجام دادم [@jonasschmedtmann](https://github.com/jonasschmedtmann)
+توجه: این بازی توسط من ننوشته شده و من فقط طراحی و ریمیک این بازی را انجام دادم
 
 ## :rocket: Technologies:
 <p>
