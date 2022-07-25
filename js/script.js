@@ -50,7 +50,6 @@ const switchPlayer = function ()
   player1El.classList.toggle('player--active');
 };
 
-// Rolling dice functionality
 btnRoll.addEventListener('click', function ()
 {
   if (playing)
@@ -107,7 +106,6 @@ btnHold.addEventListener('click', function ()
 });
 
 btnNew.addEventListener('click', init);
-
 
 const divParticlesJS = document.querySelector('#particles-js');
 
