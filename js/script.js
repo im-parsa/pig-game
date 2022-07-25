@@ -108,7 +108,6 @@ btnHold.addEventListener('click', function ()
 
 btnNew.addEventListener('click', init);
 
-
 const divParticlesJS = document.querySelector('#particles-js');
 
 if (divParticlesJS)
